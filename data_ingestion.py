@@ -73,7 +73,7 @@ def ingest_uidai_data():
     return enrolment_df, demographic_df, biometric_df
 
 # ------------------------------------------------------------
-# 4. SAVE RAW INGESTED DATA (OPTIONAL)
+# 4. SAVE RAW INGESTED DATA
 # ------------------------------------------------------------
 
 def save_raw_outputs(enrolment_df, demographic_df, biometric_df):
@@ -111,3 +111,4 @@ if __name__ == "__main__":
     save_raw_outputs(enrolment_df, demographic_df, biometric_df)
 
     print("✅ UIDAI data ingestion completed")
+
